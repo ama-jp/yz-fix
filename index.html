@@ -1,36 +1,172 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="" sizes="32x32">
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/top.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="" sizes="32x32">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/top.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </head>
 <body>
-    <!-- ヘッダー -->
-    <header>
-      <div class="sp">
-        <a href="#"><img src="images/yz_logo.png" alt="logo"></a>
+  <!-- ヘッダー -->
+  <header>
+    <div class="sp">
+      <a href="#"><img src="images/yz_logo.png" alt="logo"></a>
+    </div>
+    <!-- ナビゲーション -->
+    <nav class="top_navigation">
+      <ul class="flex">
+        <li><a href="">Concept</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href="">Client</a></li>
+        <li><a href="">Company</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>  
+    <!-- ▲ナビゲーション -->
+    <!-- SPナビゲーション -->
+    <div class="openbtn"><span></span><span></span><span></span>
+      <nav id="g-nav">
+        <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+          <ul>
+            <li><a href="https://arksoft.co.jp/">top</a></li> 
+            <li><a href="https://arksoft.co.jp/#s_01">service</a></li> 
+            <li><a href="https://arksoft.co.jp/#s_02">works</a></li> 
+            <li><a href="https://arksoft.co.jp/#s_03">contact</a></li> 
+            <li><a href="https://arksoft.co.jp/#s_04">news</a></li> 
+            <li><a href="https://arksoft.co.jp/#s_05">about us</a></li>
+          </ul>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- サイトタイトル　見出し -->
+    <section class="first">
+      <h1>
+        web site h1<br>hello yamamoto 
+      </h1>
+      <p>こんにちは、山本恋です。こんな感じの会社やってます。</p>
+      <!-- ヒーローイメージ -->
+      <figure><img src="" alt="イメージ画像"></figure>
+    </section>
+
+    <section class="concept">
+      <h2>Consept</h2>
+      <h3>セクションタイトル</h3>
+      <p>コンセプト内容</p>
+      <figure><img src="" alt="セクション画像"></figure>
+    </section>
+
+    <section class=" Business">
+      <h2>Business details</h2>
+      <h3>事業内容</h3>
+      <div class="flex">
+
+        <div class="card card_01">
+          <figure><img src="" alt=""></figure>
+          <figcaption>構造物点検事業部</figcaption>
+          <ul>
+            <li>道路のり面工、土工構造物点検</li>
+            <li>道路付属物点検</li>
+            <li>橋梁点検</li>
+            <li>特殊高所作業</li>
+            <li>環境調査、交通量調査</li>
+          </ul>
+        </div>
+        
+        <div class="card card_02">
+          <figure><img src="" alt=""></figure>
+          <figcaption>建築関連事業部</figcaption>
+          <ul>
+            <li>一般建築工事(施工、管理)</li>
+            <li>リフォーム関連工事全般</li>
+            <li>ハウスクリーニング</li>
+            <li>機械式駐車場保守、点検</li>
+            <li>各種デザイン</li>
+          </ul>
+        </div>
+
+        <div class="card card_03">
+          <figure><img src="" alt=""></figure>
+          <figcaption>構造物点検事業部</figcaption>
+          <ul>
+            <li>道路のり面工、土工構造物点検</li>
+            <li>道路付属物点検</li>
+            <li>橋梁点検</li>
+            <li>特殊高所作業</li>
+            <li>環境調査、交通量調査</li>
+          </ul>
+        </div>
+
       </div>
-      <!-- ナビゲーション -->
-      <nav class="top_navigation">
+    </section>
+
+    <section class="Client">
+      <h2>Client</h2>
+      <h3>主な取引先</h3>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <section class="Company">
+      <h2>Company</h2>
+      <h3>会社について</h3>
+      <div class="flex">
         <ul>
-          <li><a href="">Concept</a></li>
-          <li><a href="">Business</a></li>
-          <li><a href="">Client</a></li>
-          <li><a href="">Company</a></li>
-          <li><a href="">Contact</a></li>
+          <li>会社名</li>
+          <li>代表者</li>
+          <li>創業</li>
+          <li>所在地</li>
         </ul>
-      </nav>  
-      <!-- ▲ナビゲーション -->
-      <!--  -->
-    </header>
+        <ul>
+          <li>株式会社　Y’z FIX</li>
+          <li>山本　恋</li>
+          <li>2024年　2月　22日</li>
+          <li>〒221-0825<br>
+            神奈川県横浜市神奈川区反町 2-14-4<br>
+            パークショア横浜 901</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="recruit_partner">
+      <h4>求人・パートナー募集</h4>
+      <p class="white">事業拡大に伴い。。。</p>
+      <div class="flex">
+        <div class="btn_blue">
+          <a href="#">求人応募</a>
+        </div>
+
+        <div class="btn_blue">
+          <a href="#">求人応募</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="Contact">
+      <div class="btn_green">
+        <a href="#">LINE　問い合わせ</a>
+      </div>
+
+      <div class="btn_green">
+        <a href="#">お気軽にお問い合わせください。</a>
+      </div>
+
+      <div class="flex fotter">
+        <p><img src="images/yz_logo_w.png" alt="会社ロゴ"></p>
+        <p>Y’z FIX inc.</p>
+      </div>
+    </section>
+  </main>
+  
 </body>
 </html>

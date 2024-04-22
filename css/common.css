@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* ▼基本設定 */
+body,h1,h2,h3,h4,h5,h6,ul,ol,p,figure,dl,dd,table,tr,td,th{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+img {  /* 画像と画像に隙間が出るのを消す */
+  vertical-align: bottom;
+}
+body{
+  font-family: 'Noto Sans JP', sans-serif, "Hiragino Kaku Gothic ProN","メイリオ", Meiryo, -apple-system, BlinkMacSystemFont, Arial,"Helvetica Neue", "ＭＳ Ｐゴシック",YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+:root {
+    --main-color: #1285FF;
+    --accent-color: #F5F5F5;
+    --text-bright-color: #FFF;
+    --text-dark-color: #333;
+    --hover-bg-color: #D9D9D9;
+}
+a {
+  text-decoration: none;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+/* ▲基本設定 */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
